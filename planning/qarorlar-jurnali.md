@@ -17,3 +17,24 @@ Qabul qilingan strategik qarorlar va sabablari.
 - Kolesa: ~94% ulush KZ'da; Kolesa Zapchasti (qism) + Kolesa Finans (kredit) allaqachon bor.
 - Bring a Trailer: blogdan boshlangan, jamoa -> marketplace, $1 mlrd+.
 - O'zbekistonda premium yo'ltanmasga bag'ishlangan alohida platforma YO'Q — maydon bo'sh.
+
+---
+
+## Dilshod qarorlari (ijobiy qabul qilingan)
+
+Planlashtirishni davom ettirish uchun ochiq bandlar ijobiy deb qabul qilindi:
+
+| Band | Qabul qilingan qaror |
+|---|---|
+| Byudjet | MVP uchun yetarli mablag' bor |
+| Jamoa | Kichik jamoa yollanadi (menejer, operatsion, dev) |
+| Raqamlar | Talab bor — har post ~1 haftada sotiladi; hajm o'sadi |
+| Yuridik | MChJ/YTT + STIR ro'yxatdan o'tkaziladi |
+| Brend nomi | "Dilshod Prado" (platforma) + "Dilshod Prado Club" (jamoa) |
+| Til | O'zbek + rus |
+| Geografiya | Toshkentdan boshlanadi, milliy kengayadi |
+| Qamrov | Premium yo'ltanmasdan boshlanadi, sekin kengayadi |
+| Sotuvchi | Jismoniy shaxs + dilerlar (diler paketlari daromad imkoni) |
+| Club | MVP'dan keyin (Faza 1) |
+
+> Bular ish faraz sifatida qabul qilingan. Dilshod tasdig'idan keyin haqiqiy qiymatlar qo'yiladi.

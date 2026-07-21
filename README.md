@@ -1,7 +1,7 @@
 # Prado — Loyiha ish papkasi va qo'llanma
 
-**Dilshod Prado** uchun premium yo'ltanmas (SUV) **ishonchli jamoa + marketplace** loyihasi.
-Bu repozitoriy — loyihaning **barcha tahlili, rejasi, qarorlari va materiallari**. Kod hali yozilmagan; u kelajakda `project/` ichida bo'ladi.
+**Dilshod Prado** (platforma) + **Dilshod Prado Club** (jamoa) — premium yo'ltanmas (SUV) uchun **ishonchli jamoa + marketplace** loyihasi.
+Bu repozitoriy — loyihaning **barcha tahlili, rejasi, spetsifikatsiyasi, qarorlari va materiallari**. Kod hali yozilmagan; u kelajakda `project/` ichida bo'ladi.
 
 > Bir jumlada: Prado e'lonlarini takrorlash emas (ular hamma joyda) — egallanmagan **"ishonch + jamoa"** maydonini olish. Langar: Dilshodning ~63 ming auditoriyasi.
 
@@ -13,11 +13,11 @@ Bu repozitoriy — loyihaning **barcha tahlili, rejasi, qarorlari va materiallar
 |---|---|
 | Tahlil va strategiya | ✅ Tugadi |
 | Reja (Blueprint v1) | ✅ Tayyor — [`docs/02-reja-blueprint.md`](docs/02-reja-blueprint.md) |
-| MVP qamrovi belgilangan | ✅ [`planning/mvp-qamrovi.md`](planning/mvp-qamrovi.md) |
-| Dilshoddan raqamlar/qarorlar | ⏳ Kutilyapti — [`planning/ochiq-savollar.md`](planning/ochiq-savollar.md) |
-| Kod loyihasi | ⛔ Hali boshlanmagan (`project/` bo'sh) |
+| Detal planlashtirish (MVP spec, model, arxitektura, GTM, KPI) | ✅ Tugadi — [`docs/06`](docs/06-mvp-spetsifikatsiya.md)–[`10`](docs/10-kpi-va-muddatlar.md) |
+| Dilshod qarorlari (byudjet, jamoa, brend, til…) | ✅ Qabul qilindi — [`planning/qarorlar-jurnali.md`](planning/qarorlar-jurnali.md) |
+| Kod loyihasi | ⛔ Hali boshlanmagan — reja: [`project/STRUKTURA-REJASI.md`](project/STRUKTURA-REJASI.md) |
 
-**Keyingi qadam:** Dilshoddan raqamlar/qarorlar → MVP detallash → kod loyihasi.
+**Keyingi qadam:** dizayn + stack tasdig'i → **kod loyihasini yaratish** (`project/` ichida).
 
 ---
 
@@ -32,16 +32,24 @@ Tartib bilan o'qing — har biri GitHub'da bosiladigan havola:
 - [`docs/04-funksiya-inventari.md`](docs/04-funksiya-inventari.md) — dekdan funksiyalar ro'yxati (yadro / farqlash / keyin belgilari bilan)
 - [`docs/05-dekdan-namunalar.md`](docs/05-dekdan-namunalar.md) — aniq UI/ma'lumot namunalari (kategoriya, maydon, ikon, holat — build reference)
 
-**2. Planlashtirish**
-- [`planning/mvp-qamrovi.md`](planning/mvp-qamrovi.md) — birinchi versiyada aynan nima bo'ladi (P0 checklist)
-- [`planning/ochiq-savollar.md`](planning/ochiq-savollar.md) — Dilshoddan so'raladigan savollar (byudjet, jamoa, raqamlar…)
-- [`planning/qarorlar-jurnali.md`](planning/qarorlar-jurnali.md) — qabul qilingan strategik qarorlar va sabablari
+**2. Detal spetsifikatsiya (build uchun)**
+- [`docs/06-mvp-spetsifikatsiya.md`](docs/06-mvp-spetsifikatsiya.md) — MVP ekran + oqim darajasida (landing, qidiruv, e'lon detali, profil, admin…)
+- [`docs/07-malumotlar-modeli.md`](docs/07-malumotlar-modeli.md) — entity / ma'lumotlar modeli (User, e'lon, to'lov, Club…)
+- [`docs/08-texnik-arxitektura.md`](docs/08-texnik-arxitektura.md) — stack va arxitektura (SEO-birinchi, SSR)
+- [`docs/09-ishga-tushirish-rejasi.md`](docs/09-ishga-tushirish-rejasi.md) — go-to-market (pre-launch → launch → o'sish)
+- [`docs/10-kpi-va-muddatlar.md`](docs/10-kpi-va-muddatlar.md) — KPI va taxminiy muddatlar
 
-**3. Research**
+**3. Planlashtirish**
+- [`planning/mvp-qamrovi.md`](planning/mvp-qamrovi.md) — birinchi versiyada aynan nima bo'ladi (P0 checklist)
+- [`planning/ochiq-savollar.md`](planning/ochiq-savollar.md) — Dilshoddan so'raladigan savollar
+- [`planning/qarorlar-jurnali.md`](planning/qarorlar-jurnali.md) — strategik qarorlar + **Dilshod qarorlari** (qabul qilingan)
+
+**4. Research**
 - [`research/global-modellar-va-koreya.md`](research/global-modellar-va-koreya.md) — uch biznes model taqqoslash, global namunalar, Koreya bozori
 
-**4. Brend va materiallar**
+**5. Brend, kod rejasi va materiallar**
 - [`brand/brend-yonalishi.md`](brand/brend-yonalishi.md) — rang, logo, nom yo'nalishi (qora + oltin, premium)
+- [`project/STRUKTURA-REJASI.md`](project/STRUKTURA-REJASI.md) — kelajakdagi kod loyihasining rejalashtirilgan tuzilishi
 - [`assets/prezentatsiya/`](assets/prezentatsiya/) — original prezentatsiya (`Prezentatsiya1.pptx`)
 - [`assets/reference-mockups/`](assets/reference-mockups/) — reference mockup rasmlar (8 ta)
 
@@ -52,12 +60,12 @@ Tartib bilan o'qing — har biri GitHub'da bosiladigan havola:
 ```
 Prado/
 ├── README.md          ← shu qo'llanma
-├── docs/              tahlil, reja, dek tahlili, funksiya inventari, namunalar
+├── docs/              tahlil, reja, spetsifikatsiya (01–10)
 ├── planning/          MVP qamrovi, ochiq savollar, qarorlar jurnali
 ├── research/          global modellar, model taqqoslash, Koreya
 ├── brand/             brend yo'nalishi (rang, logo, nom)
 ├── assets/            original prezentatsiya + reference mockup rasmlar
-└── project/           kelajakdagi kod loyihasi (hozircha bo'sh)
+└── project/           kelajakdagi kod loyihasi (hozircha reja: STRUKTURA-REJASI.md)
 ```
 
 ---
@@ -97,17 +105,18 @@ git push
 - **Faza 2:** ehtiyot qismlar + servis hamkorligi + diler paketlari.
 - **Faza 3:** moliya / eskrou yordami + geografik kengayish.
 
-To'liq tafsilot: [`docs/02-reja-blueprint.md`](docs/02-reja-blueprint.md).
+To'liq tafsilot: [`docs/02-reja-blueprint.md`](docs/02-reja-blueprint.md) · muddatlar: [`docs/10-kpi-va-muddatlar.md`](docs/10-kpi-va-muddatlar.md).
 
 ---
 
 ## Kod loyihasi boshlanganda
 
-`project/` bo'sh. Kod yozilganda shu yerda haqiqiy ilova quriladi va bu bo'lim setup ko'rsatmalari (stack, o'rnatish, ishga tushirish buyruqlari) bilan yangilanadi. Hozircha MVP qamrovi: [`planning/mvp-qamrovi.md`](planning/mvp-qamrovi.md), UI namunalari: [`docs/05-dekdan-namunalar.md`](docs/05-dekdan-namunalar.md).
+`project/` hozircha bo'sh — faqat rejalashtirilgan tuzilish bor: [`project/STRUKTURA-REJASI.md`](project/STRUKTURA-REJASI.md).
+Kod yozilganda shu yerda haqiqiy ilova quriladi (stack: [`docs/08-texnik-arxitektura.md`](docs/08-texnik-arxitektura.md)) va bu bo'lim o'rnatish/ishga tushirish buyruqlari bilan yangilanadi. Build reference: [`docs/06-mvp-spetsifikatsiya.md`](docs/06-mvp-spetsifikatsiya.md) + [`docs/07-malumotlar-modeli.md`](docs/07-malumotlar-modeli.md).
 
 ---
 
-## Dilshoddan kerak (bloklovchi qarorlar)
+## Dilshod qarorlari
 
-Loyihaning keyingi shakli shu javoblarga bog'liq — [`planning/ochiq-savollar.md`](planning/ochiq-savollar.md):
-byudjet · jamoa · real raqamlar (hajm, o'rtacha bitim, marja) · yuridik tuzilma (YTT/MChJ, STIR) · brend nomi · til (o'zbek+rus) · geografiya.
+Planlashtirishni davom ettirish uchun asosiy bandlar qabul qilingan (ish faraz sifatida; Dilshod tasdig'idan keyin aniqlashtiriladi) — [`planning/qarorlar-jurnali.md`](planning/qarorlar-jurnali.md):
+byudjet yetarli · kichik jamoa yollanadi · MChJ/YTT + STIR · brend "Dilshod Prado" + "Dilshod Prado Club" · til o'zbek+rus · Toshkentdan boshlanadi · premium yo'ltanmasdan boshlanadi.
