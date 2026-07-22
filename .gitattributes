@@ -1,0 +1,19 @@
+# Barcha matnli fayllar avtomatik aniqlanadi va repozitoriyada LF sifatida saqlanadi.
+# eol=lf — ishchi nusxada ham LF (Windowsda CRLF konvertatsiya ogohlantirishlari yo'qoladi).
+* text=auto eol=lf
+
+# Aniq matnli fayllar (hujjat loyihasi)
+*.md    text eol=lf
+*.txt   text eol=lf
+*.json  text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+
+# Binar fayllar — hech qachon konvertatsiya qilinmasin
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.pdf   binary
+*.ico   binary
+*.webp  binary
