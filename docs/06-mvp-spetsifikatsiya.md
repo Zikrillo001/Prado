@@ -1,3 +1,5 @@
+> **SCOPE O'ZGARISHI (v2):** Qamrov endi **hamma mashina** (umumiy marketplace) — premium nisha emas. Pozitsiya: umumiy avto marketplace; differensiatsiya nisha orqali emas, **ishonch + jamoa + brend + UX** orqali. Batafsil: `planning/qarorlar-jurnali.md`.
+
 # MVP spetsifikatsiyasi (ekran + oqim)
 
 MVP modullari, har biri ekran va oqim darajasida. Freemium: e'lon bepul, ko'tarish pullik.

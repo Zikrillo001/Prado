@@ -1,3 +1,5 @@
+> **SCOPE O'ZGARISHI (v2):** Qamrov endi **hamma mashina** (umumiy marketplace) — premium nisha emas. Pozitsiya: umumiy avto marketplace; differensiatsiya nisha orqali emas, **ishonch + jamoa + brend + UX** orqali. Batafsil: `planning/qarorlar-jurnali.md`.
+
 # Dilshod Prado — Loyiha strukturasi, ma'lumotlar va muammolar
 
 **Ishchi hujjat · 2026-yil iyul**

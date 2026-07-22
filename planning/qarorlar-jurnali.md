@@ -38,3 +38,23 @@ Planlashtirishni davom ettirish uchun ochiq bandlar ijobiy deb qabul qilindi:
 | Club | MVP'dan keyin (Faza 1) |
 
 > Bular ish faraz sifatida qabul qilingan. Dilshod tasdig'idan keyin haqiqiy qiymatlar qo'yiladi.
+
+---
+
+## SCOPE O'ZGARISHI (v2) — HAMMA MASHINA (A tanlandi)
+
+Foydalanuvchi qarori: qamrov **hamma mashina** (umumiy marketplace), premium nisha emas.
+
+| Band | Eski (v1) | Yangi (v2) |
+|---|---|---|
+| Qamrov | Premium yo'ltanmasdan boshlab kengayadi | **Hamma mashina, boshidanoq** |
+| Pozitsiya | Tor premium nisha + ishonch + jamoa | **Umumiy marketplace + ishonch + jamoa + brend + UX** |
+
+**Strategik oqibat (halol):** endi differensiatsiya nisha orqali emas — bu Avtoelon/OLX
+(Kaspi/Kolesa) bilan to'g'ridan-to'g'ri, ularning maydonida raqobat. Bu og'irroq va
+qimmatroq yo'l. Shuning uchun **ishonch + jamoa + brend + UX** pillarlari hal qiluvchi.
+Launch'da premium yo'ltanmas kuchli boshlang'ich kategoriya bo'lib xizmat qiladi
+(Dilshodning auditoriyasi shu yerda), keyin barcha segmentga kengayadi.
+
+> Quyidagi eski hujjatlardagi "premium yo'ltanmas / nisha" framing shu qarorga ko'ra
+> o'zgargan — bu bo'lim ustuvor.

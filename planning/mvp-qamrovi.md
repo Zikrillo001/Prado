@@ -1,3 +1,5 @@
+> **SCOPE O'ZGARISHI (v2):** Qamrov endi **hamma mashina** (umumiy marketplace) — premium nisha emas. Pozitsiya: umumiy avto marketplace; differensiatsiya nisha orqali emas, **ishonch + jamoa + brend + UX** orqali. Batafsil: `planning/qarorlar-jurnali.md`.
+
 # MVP qamrovi
 
 Birinchi ishga tushadigan versiya. Maqsad: modelni real bozorda tekshirish
